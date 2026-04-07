@@ -22,21 +22,6 @@ JavaScript (ES6+): Implemented using Fetch API and Async/Await for efficient dat
 
 API: Powered by WeatherAPI.
 
-🚀 How to Use
-Clone the Repository:
-
-Bash
-git clone https://github.com/your-username/weather-app.git
-Get Your API Key:
-Sign up for a free key at WeatherAPI.com.
-
-Configure the Key:
-Open app.js and replace the API_KEY value with your personal key:
-
-JavaScript
-const API_KEY = "YOUR_API_KEY_HERE";
-Launch:
-Open index.html in your favorite web browser.
 
 🖥️ Preview
 Live Demo: https://yaseenibnkhan.github.io/WeatherApp
