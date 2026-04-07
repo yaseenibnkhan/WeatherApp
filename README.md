@@ -39,7 +39,8 @@ Launch:
 Open index.html in your favorite web browser.
 
 🖥️ Preview
-Live Demo: [Insert your GitHub Pages link here]
+Live Demo: https://yaseenibnkhan.github.io/WeatherApp
+
 
 📝 Learning Outcomes
 This project was built to practice:
