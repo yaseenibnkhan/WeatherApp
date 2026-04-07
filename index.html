@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp | Check Weather Anywhere</title>
+</head>
+
+<body>
+    <main class="app-shell">
+        <section class="hero-card">
+            <div class="hero-copy">
+                <span class="eyebrow">Weather App</span>
+                <h1>Check the weather in any city.</h1>
+                <p>Search by city name to see current temperature, humidity, wind, and conditions instantly.</p>
+            </div>
+            <form id="weather-form" class="search-panel">
+                <label class="field-group" for="city-name">
+                    <span>City name</span>
+                    <input type="text" id="city-name" name="city" placeholder="e.g. London" autocomplete="off" />
+                </label>
+                <button id="search-btn" type="submit">Search</button>
+                <p class="hint-text">Press Enter or click Search.</p>
+            </form>
+        </section>
+
+        <section id="result-panel" class="result-panel hidden">
+            <div class="result-header">
+                <div>
+                    <h2 id="city-data"></h2>
+                    <p id="city-time"></p>
+                </div>
+                <div class="condition">
+                    <img id="condition-icon" src="" alt="Weather icon" />
+                    <p id="condition-text"></p>
+                </div>
+            </div>
+
+            <div class="weather-grid">
+                <div class="weather-card">
+                    <span>Temperature</span>
+                    <strong id="temp"></strong>
+                </div>
+                <div class="weather-card">
+                    <span>Feels like</span>
+                    <strong id="feelslike"></strong>
+                </div>
+                <div class="weather-card">
+                    <span>Humidity</span>
+                    <strong id="humidity"></strong>
+                </div>
+                <div class="weather-card">
+                    <span>Wind</span>
+                    <strong id="wind"></strong>
+                </div>
+                <div class="weather-card">
+                    <span>UV index</span>
+                    <strong id="uv-index"></strong>
+                </div>
+            </div>
+        </section>
+
+        <div id="status-message" class="status-message"></div>
+        <footer class="footer-note">Designed for a smooth weather-search experience.
+            <br>Powered by the WeatherAPI. Developed by Muhammad Yaseen.</footer>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
