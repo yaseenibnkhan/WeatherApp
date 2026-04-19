@@ -2,7 +2,7 @@
 ☁️ WeatherApp - Modern Real-Time Weather Tracker
 A sleek, responsive Weather Application that provides instant weather updates for any city globally using the WeatherAPI. This project features a modern Glassmorphism design and a seamless user experience.
 
-✨ Features
+✨ Features:
 Global Search: Look up the current weather for any city in the world.
 
 Real-Time Data: Displays temperature (Celsius/Fahrenheit), "Feels Like" temperature, humidity, wind speed, and UV index.
